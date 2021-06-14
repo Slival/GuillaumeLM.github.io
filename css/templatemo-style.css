@@ -16,6 +16,15 @@ light-gray: #999999;
 text-gray: #6b6b6b;
 
 */
+hr {
+	height:2px;
+	border-width:0;
+	color:gray;
+	background-color:gray;
+	
+	width:50%;
+	margin:auto;
+}
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -53,6 +62,22 @@ a:hover {
 
 .tm-bg-green {
   background-color: #98cb00;
+}
+
+.tm-bg-purple {
+  background-color: #a700cc;
+}
+
+.tm-bg-red {
+  background-color: #cc3000;
+}
+
+.tm-bg-yellow {
+  background-color: #ccc900;
+}
+
+.tm-bg-cyan {
+  background-color: #00ccc9;
 }
 
 .tm-bg-orange {
@@ -155,14 +180,15 @@ a:hover {
 .tm-portfolio-item {
   display: flex;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .tm-portfolio-name {
   width: 330px;
   height: 220px;
   font-size: 2rem;
-  padding: 70px 95px;
+  padding: 15px 15px;
   display: flex;
   align-items: center;
   text-align: center;
