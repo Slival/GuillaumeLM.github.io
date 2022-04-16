@@ -168,8 +168,9 @@ a:hover {
 .tm-welcome-right {
   color: white;
   background-color: #986665;
-  padding: 80px 43px 70px;
+  padding: 0px;
   height: 100%;
+  aspect-ratio: 4 / 3;
 }
 
 .tm-welcome-icon {
@@ -184,6 +185,26 @@ a:hover {
 
 #tmPortfolio {
   padding-top: 80px;
+}
+
+.CenteredImage{
+	display: block;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.HeaderImage{
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	
+  color: white;
+  background-color: #986665;
+  padding: 0px;
+  height: 100%;
+    vertical-align: middle;
 }
 
 .tm-portfolio-item {
@@ -227,7 +248,30 @@ a:hover {
 .tm-text-dark-gray {
   color: #676767;
 }
-
+.tm-text-cgi {
+  color: #e31937;
+}
+.tm-text-newmont {
+  color: #303b92;
+}
+.tm-text-dsp {
+  color: #ef9800;
+}
+.tm-text-pr {
+  color: #ffd000;
+}
+.tm-text-ascentop {
+  color: #F6F6F6;
+}
+.tm-text-vocalomancer {
+  color: #77AF1D;
+}
+.tm-text-knockknock {
+  color: #4B5176;
+}
+.tm-text-pachinko {
+  color: #FB0C0D;
+}
 .tm-title-small {
   font-size: 1.3rem;
 }
@@ -250,7 +294,6 @@ p {
   height: auto;
   min-height: 420px;
   margin-right: 35px;
-  background-color: white;
   padding: 54px 34px 44px;
 }
 
